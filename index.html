@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Face Detection App</title>
   <script defer src="face-api.min.js"></script>
   <script defer src="script.js"></script>
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <video id="video" width="720" height="560" autoplay muted></video>
+  <div class="container">
+    <h1 class="title">Face Detection App</h1>
+    <div class="video-container">
+      <video id="video" width="720" height="560" autoplay muted></video>
+      <canvas id="overlay"></canvas>
+    </div>
+  </div>
+  <footer class="footer">Made with ❤️ using Face API.js <br> <span class="dev">developed by Nanda</span> </footer>
 </body>
 </html>
